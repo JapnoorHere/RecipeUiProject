@@ -1,0 +1,182 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    height: 100%;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg, #d3d3d3 0%, #ffffff 100%);
+}
+
+
+/* navContainer */
+
+.navContainer{
+    width: 100vw;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+    
+}
+#navList{
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+#navLogo{
+    font-size: 2.8rem;
+    color: rgb(55, 55, 55);
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+    font-size: 30px;
+
+}
+
+.navHeadingsItems{
+    display: flex;
+    gap: 20px;
+}
+
+/* navContainer */
+
+
+
+/* contentContainer */
+
+.contentContainer{
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 0px 0px 50px black;
+}
+
+
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightBox{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.rightBox img{
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.rightBox:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 10px black);
+
+}
+
+.rightBox .imageOverlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #474747bb;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+}
+
+.rightBox:hover .imageOverlay{
+    opacity: 1;
+    /* transform: scale(1.1); */
+} 
+
+.rightBox .imageOverlay span{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftBox h2{
+    font-size: 2rem;
+}
+
+.leftBox h4{
+    font-size: 1.3rem;
+}
+
+.itemIngredients{
+    font-size: 1.1rem;
+}
+
+.itemRecipe{
+    font-size: 1.1rem;
+}
+
+
+
+/* contentContainer */
+
+
+
+
+
+
+
+
+/* footerContainer */
+
+.footerContainer {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);min-height: 100px;
+    text-align: center;
+    padding: 30px ;
+    margin-top: 1px;
+}
+
+
+/* footerContainer */
+
+
+
+
+
+
+
