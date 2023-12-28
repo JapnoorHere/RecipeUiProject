@@ -20,7 +20,7 @@
 
 .navContainer{
     width: 100vw;
-    background: rgb(238,174,202);
+    background: azure;
     background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);min-height: 100px;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ nav{
 
 #navLogo{
     font-size: 2.8rem;
-    color: rgb(55, 55, 55);
+    color: azure;
     font-weight: bolder;
 }
 
