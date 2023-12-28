@@ -9,9 +9,10 @@
 
 .container{
     height: 100%;
-    width: 100vw;
-    overflow-x: none;
+    width: 100%;
+    overflow-y: auto;
     background-color: #e2e5e8;
+    scrollbar-gutter: stable;
     background-image: linear-gradient(98deg, #d3d3d3 0%, #ffffff 100%);
 }
 
