@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-
+body::-webkit-scrollbar{
+    display: none;
+}
 
 .container{
     height: 100%;
@@ -151,12 +153,12 @@ a{
     font-size: 1.1rem;
 }
 
+span{
+    cursor: pointer;
+}
 
 
 /* contentContainer */
-
-
-
 
 
 
